@@ -5,6 +5,7 @@ const cors = require('cors')
 
 const app = express();
 
+
 mongoose.connect('mongodb+srv://iea:1234@cluster0.xtfiw.mongodb.net/iea?retryWrites=true&w=majority', {
 //mongoose.connect('mongodb://localhost:27017/?readPreference=primary&appname=MongoDB%20Compass&directConnection=true&ssl=false', {
     useNewUrlParser: true, 
