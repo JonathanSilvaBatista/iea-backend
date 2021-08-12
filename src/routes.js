@@ -13,6 +13,7 @@ const routes = express.Router();
 /* ROTAS SEM TOKEN */
 // routes.post('/signin', AuthController.store);
 routes.post('/conversion', ConversionController.store);
+routes.get('/teste', ConversionController.teste);
 
 /* ROTAS COM TOKEN */
 // routes.use(authMiddleware)

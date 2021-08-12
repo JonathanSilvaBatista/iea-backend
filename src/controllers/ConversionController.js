@@ -26,6 +26,15 @@ module.exports = {
         return res.json({
             conversion
             // token: generateToken({ id: user.id })
+        }); 
+    },
+
+    teste(req, res){
+        conversion = "tesss";
+        return res.json({
+            conversion
+            // token: generateToken({ id: user.id })
         });
-    }
+    }    
+
 };
