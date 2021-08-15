@@ -17,6 +17,10 @@ const ConversionSchema = new mongoose.Schema({
     experience: {
         type: String,
         required: true
+    },
+    opinion: {
+        type: String,
+        required: false
     }, 
     createdAt: {
         type: Date,

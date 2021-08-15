@@ -14,11 +14,11 @@ module.exports = {
     async store(req, res){
         //const email = req.body.email;
         // console.log(req.telephone)
-        const { name, email, telephone, experience } = req.body
+        const { name, email, telephone, experience, opinion } = req.body
         // let user = await User.findOne({ email });
 
         // if (!user){
-            conversion = await Conversion.create({ name, email, telephone, experience });
+            conversion = await Conversion.create({ name, email, telephone, experience, opinion });
         // }
 
         // user.password = undefined;
